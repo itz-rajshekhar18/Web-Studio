@@ -1,0 +1,28 @@
+.projects {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #eee;
+  padding: 1.5rem;
+  flex: 1 1 30%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 900px) {
+  .projects {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .project-card {
+    flex: 1 1 100%;
+    padding: 1rem;
+  }
+}

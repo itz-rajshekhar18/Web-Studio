@@ -1,0 +1,62 @@
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  max-width: 100vw; 
+}
+
+.theme-toggle button {
+  padding: 0.5rem 1rem;
+  background: #f4c542;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+body.dark .theme-toggle button {
+  background: #333;
+  color: #fff;
+}
+
+body.dark .hero {
+  background: linear-gradient(to right, #2d3150, #4953a6);
+  color: #f8f8fa;
+}
+body.dark .hero h1,
+body.dark .hero p {
+  color: #f8f8fa;
+}
+
+body.dark {
+  background: #23263a;
+  color: #f8f8fa;
+}
+
+body.dark section,
+body.dark .container {
+  background: transparent;
+  color: #f8f8fa;
+}
+
+body.dark .services,
+body.dark .portfolio,
+body.dark .contact {
+  background: transparent;
+  color: #f8f8fa;
+}
+
+body.dark .card,
+body.dark .project-card {
+  background: #35395c;
+  color: #f8f8fa;
+}
+
+body.dark input,
+body.dark textarea {
+  background: #35395c;
+  color: #fff;
+  border-color: #666;
+}
