@@ -82,8 +82,7 @@ npm run build
 
 ## 🌐 Live Demo
 
-> Deploy it easily on [Netlify](https://netlify.com), [Vercel](https://vercel.com), or GitHub Pages.
-
+>https://web-studio-yfg0.onrender.com/
 ---
 
 ## 📸 Screenshots
